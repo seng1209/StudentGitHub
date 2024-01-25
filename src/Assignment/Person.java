@@ -1,4 +1,4 @@
-package Person;
+package Assignment;
 
 public class Person {
     public String getName() {
@@ -28,9 +28,4 @@ public class Person {
         this.name = name;
         this.address = address;
     }
-
-    public void printPerson(){
-        System.out.println(getName() + " " + getAddress());
-    }
-
 }
